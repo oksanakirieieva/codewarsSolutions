@@ -1,0 +1,10 @@
+//https://www.codewars.com/users/oksanakirieieva/completed_solutions
+function sumTriangularNumbers(n) {
+  let sum = 0;
+  let num = 1;
+  for(let i = 1; i <= n; i++){
+    sum += num;
+    num += i + 1;
+  }
+  return sum;
+}
